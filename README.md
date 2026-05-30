@@ -23,19 +23,19 @@ This project tackles two key challenges:
 HTRU2 Dataset (17,898 samples)
         │
         ▼
-┌─────────────────────────────────────────┐
-│         Class Imbalance Handling         │
-│                                         │
-│   GAN → Synthetic minority samples      │
-│   SMOTE → Further oversampling          │
-│                                         │
-│   Before: 16,259 non-pulsar / 1,639 pulsar  │
-│   After:  Balanced training distribution     │
-└─────────────────────────────────────────┘
+┌───────────────────────────────────────────┐
+│         Class Imbalance Handling          │
+│                                           │
+│   GAN → Synthetic minority samples        │
+│   SMOTE → Further oversampling            │
+│                                           │
+│   Before: 16,259 non-pulsar / 1,639 pulsar│
+│   After:  Balanced training distribution  │
+└───────────────────────────────────────────┘
         │
         ▼
 ┌─────────────────────────────────────────┐
-│       Hybrid Deep Learning Model         │
+│       Hybrid Deep Learning Model        │
 │                                         │
 │   CNN Layer → Local feature extraction  │
 │   LSTM Layer → Temporal dependencies    │
