@@ -51,9 +51,9 @@ HTRU2 Dataset (17,898 samples)
 
 | Metric | Score |
 |---|---|
-| Overall Accuracy | **97%+** |
-| Precision (Pulsar class) | High |
-| Recall (Pulsar class) | Significantly improved vs. baseline |
+| Overall Accuracy | **90%+** |
+| Precision (Pulsar class) | 86% |
+| Recall (Pulsar class) | 95% |
 | Class Imbalance Ratio | 91:9 → Balanced (post-GAN + SMOTE) |
 
 > The focus metric is **minority-class recall** — in pulsar detection, missing a real pulsar (false negative) is far more costly than a false alarm.
