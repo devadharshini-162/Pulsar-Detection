@@ -2,8 +2,6 @@
 
 > Detecting pulsar stars from the HTRU2 dataset using a hybrid deep learning architecture with GAN-based synthetic data generation and SMOTE to handle severe class imbalance.
 
-**Research paper accepted at AFTMME-2025 International Conference.**
-
 ---
 
 ## 📌 Overview
